@@ -9,6 +9,6 @@ CREATE TABLE customers (
 );
 
 INSERT INTO customers (customer_id, name_customer, gender, age, region, job, balance)
-	VALUES  (1, 'Ali', 'Male', 29, 'Wales', 'Blue Collar', 200545.08),
-			(2, 'Nina', 'Female', 25, 'Ireland', 'Blue Collar', 98758.15),
-	 		(3, 'Lily', 'Female', 32, 'England', 'White Collar', 302845.95);
+	VALUES  (1, 'Ali', 'Male', 29, 'Wales', 'Blue Collar', 200545),
+			(2, 'Nina', 'Female', 25, 'Ireland', 'Blue Collar', 98758),
+	 		(3, 'Lily', 'Female', 32, 'England', 'White Collar', 302845);

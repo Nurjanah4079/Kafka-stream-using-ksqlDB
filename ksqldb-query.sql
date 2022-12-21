@@ -11,6 +11,7 @@ CREATE SOURCE CONNECTOR jdbc_source WITH (
   'key'                      = 'customer_id',
   'key.converter'            = 'org.apache.kafka.connect.converters.IntegerConverter');
 
+
 CREATE STREAM stream_customers_tables(
     customer_id INT,
     name_customers VARCHAR,
